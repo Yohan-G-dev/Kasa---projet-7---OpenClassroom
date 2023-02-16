@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+header img {
+  height: 68px;
+  width: 210.32px;
+}
+@media screen and (max-width: 992px) {
+  header img {
+    height: 47px;
+    width: 145px;
+  }
+}/*# sourceMappingURL=header.css.map */

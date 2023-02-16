@@ -1,0 +1,30 @@
+.btn-slide {
+  background: none;
+  border: none;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-slide img {
+  width: clamp(1.25rem, -0.0704rem + 5.6338vw, 5rem);
+  pointer-events: none;
+}
+.prev {
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  @media screen and (max-width: 992px){
+    left: 5px;
+  }
+}
+.next {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  @media screen and (max-width: 992px){
+    right: 5px;
+  }
+}

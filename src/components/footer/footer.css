@@ -1,0 +1,26 @@
+footer {
+  padding-top: 60px;
+  font-size: clamp(0.75rem, 0.4859rem + 1.1268vw, 1.5rem);
+  position: absolute;
+  width: 100%;
+  height: 149px;
+  left: 0px;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer img {
+  width: 122px;
+}
+footer p {
+  margin-top: 28.56;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  footer p {
+    margin-top: 34px;
+  }
+}/*# sourceMappingURL=footer.css.map */

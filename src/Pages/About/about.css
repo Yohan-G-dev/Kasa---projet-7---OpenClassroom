@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.accordion {
+  width: 80%;
+}
+.accordion .content {
+  font-size: clamp(0.75rem, 0.4859rem + 1.1268vw, 1.5rem);
+}
+.accordion h2 {
+  font-size: clamp(0.8125rem, 0.5704rem + 1.0329vw, 1.5rem);
+}
+@media screen and (max-width: 768px) {
+  .accordion {
+    width: 100%;
+  }
+}/*# sourceMappingURL=about.css.map */

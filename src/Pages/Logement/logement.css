@@ -1,0 +1,117 @@
+.li1 {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+@media screen and (max-width: 768px) {
+  .li1 {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+.li1-col1 {
+  color: #FF6060;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.li1-col1 h2 {
+  margin: 0;
+  font-size: clamp(1.125rem, 0.7306rem + 1.6828vw, 2.75rem);
+}
+.li1-col1 h3 {
+  margin: 0 0 26px;
+  font-size: clamp(0.875rem, 0.7536rem + 0.5178vw, 1.375rem);
+}
+@media screen and (max-width: 768px) {
+  .li1-col1 h3 {
+    margin: 3px 0 10px;
+  }
+}
+.li1-col1 .tags {
+  margin-bottom: 4px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.li1-col1 .tags li {
+  font-size: clamp(0.625rem, 0.537rem + 0.3756vw, 0.875rem);
+  background-color: #FF6060;
+  color: white;
+  padding: 3px 3%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .li1-col1 {
+    width: 100%;
+  }
+}
+
+.li1-col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 25px;
+}
+.li1-col2 .host {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.li1-col2 .host p {
+  color: #FF6060;
+  text-align: end;
+}
+.li1-col2 .host img {
+  height: 64px;
+  width: 64px;
+  border-radius: 999px;
+}
+.li1-col2 .rating img {
+  width: clamp(1.125rem, 0.7289rem + 1.6901vw, 2.25rem);
+}
+@media screen and (max-width: 768px) {
+  .li1-col2 {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.li2 {
+  margin-bottom: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.li2 li {
+  list-style: none;
+}
+.li2 .item {
+  width: 47%;
+}
+.li2 .item .title h2 {
+  font-size: clamp(0.8125rem, 0.7025rem + 0.4695vw, 1.125rem);
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+.li2 .item .arrow {
+  bottom: 25%;
+  left: calc(97% - 13px);
+}
+.li2 .item .content {
+  font-size: clamp(0.75rem, 0.618rem + 0.5634vw, 1.125rem);
+}
+@media screen and (max-width: 992px) {
+  .li2 {
+    flex-direction: column;
+  }
+  .li2 .item {
+    width: 100%;
+  }
+}/*# sourceMappingURL=logement.css.map */

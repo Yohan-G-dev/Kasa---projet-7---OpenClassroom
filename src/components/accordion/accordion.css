@@ -1,0 +1,55 @@
+.item {
+  margin-bottom: 25px;
+}
+
+.title {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.title h2 {
+  position: relative;
+  background: #FF6060;
+  width: 97.5%;
+  padding: 5px 0 5px 2.5%;
+  border-radius: 5px;
+}
+.title .arrow {
+  position: absolute;
+  bottom: 18%;
+  left: calc(97% - 11px);
+  height: clamp(0.9375rem, 0.7614rem + 0.7512vw, 1.4375rem);
+  transition: transform 0.5s ease-in-out;
+}
+.title .arrow.down {
+  transform: rotate(0deg);
+}
+.title .arrow.up {
+  transform: rotate(180deg);
+}
+.title h2 {
+  z-index: 1;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.content {
+  height: 89%;
+  position: relative;
+  bottom: 8px;
+  border-radius: 0 0 10px 10px;
+  background: #F6F6F6;
+  color: #FF6060;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.content p {
+  margin: calc(2% + 10px);
+  margin-bottom: calc(1% + 10px);
+}
+
+.content.show {
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}/*# sourceMappingURL=accordion.css.map */

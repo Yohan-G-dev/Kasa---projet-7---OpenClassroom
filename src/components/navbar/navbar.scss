@@ -1,0 +1,24 @@
+ul{
+  display: flex;
+  gap: clamp(0.625rem, -0.4093rem + 4.4131vw, 3.5625rem);
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  font-size: clamp(0.75rem, 0.4859rem + 1.1268vw, 1.5rem);
+  li{
+    white-space: nowrap;
+  }
+  a{
+    color: #FF6060;
+    :hover{
+      color: #FF6060;
+    }
+  }
+  .underline{
+    text-decoration: underline;
+  }
+  .removeUnderline{
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,12 @@
+.home .banner p {
+  color: white;
+  font-size: clamp(1.5rem, 0.9718rem + 2.2535vw, 3rem);
+}
+@media screen and (max-width: 768px) {
+  .home .banner {
+    height: 111px;
+  }
+  .home .banner p {
+    height: 111px;
+  }
+}/*# sourceMappingURL=home.css.map */
